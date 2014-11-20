@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 #On importe la librarie RPi.GPIO
 GPIO.setmode(GPIO.BOARD)
-#On définit l'utilisation des numéros sur le modèle BOARD et non BCM
+#On définit l'utilisation des numeros sur le modele BOARD et non BCM
 GPIO.setup(11, GPIO.OUT)
 #On définit le port 11 en sortie
 GPIO.output(11, GPIO.LOW)
